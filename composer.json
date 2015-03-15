@@ -1,0 +1,26 @@
+{
+    "name": "o3co/standards",
+    "description": "O3Co Standards Dictionary Component - for ISO and JIS",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yoshi",
+            "email": "yoshi@1o1.co.jp"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "o3co/dictionary" : "~0.1.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"O3Co\\Standards\\": "lib"
+		}
+	},
+	"extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+	}
+}
+
